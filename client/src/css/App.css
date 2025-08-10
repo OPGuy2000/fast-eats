@@ -1,9 +1,87 @@
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Bungee&display=swap');
 
 #navbar-toggler{
-  font-family: "Archivo Black", sans-serif;
+  font-family: "Bungee", sans-serif;
   font-size: 1.5rem;
   align-items: center;
+  display: flex;
+}
+
+#cover-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;    
+  height: 100vh;           
+
+}
+
+.cover-item{
+  max-width: 40%;
+  margin: 1em;
+}
+
+#fast{
+  color: orange;
+}
+
+#rightArrow{
+  vertical-align: middle;
+  filter: invert(1);
+}
+
+#discoverText{
+  font-family: "Archivo Black", sans-serif;
+  font-size: 5rem;
+  text-align: left;
+  line-height: 1.2;
+  color: black;
+  
+}
+
+#crave {
+  color: orange;
+  text-shadow: 
+        -1px -1px 1em black, 
+        1px -1px 1em black,  
+        -1px 1px 1em black, 
+        1px 1px 1em black;  
+}
+
+#tryit-button{
+  font-size: 1.5rem;
+  padding: 0.5em;
+  text-align: center;
+  align-items: center;
+  background-color: orange;
+  border: rgb(83, 54, 0) solid 2px;
+}  
+
+#cover-paragraph{
+  text-shadow: 
+        -3px -3px 1em black, 
+        3px -3px 1em black,  
+        -3px 3px 1em black, 
+        3px 3px 1em black;   
+  color: white;
+}
+
+#inner-cover{
+  display:inline
+}
+
+:root[data-bs-theme="light"] #theme-button {
+  color: #333;
+}
+
+
+:root[data-bs-theme="dark"] #theme-button {
+  color: orange;
+}
+
+body {
+  background-image: url('../src/assets/food_background.jpg');
+  background-size: cover;
 }
 
 #root {
