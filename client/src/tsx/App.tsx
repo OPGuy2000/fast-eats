@@ -107,9 +107,9 @@ const App: React.FC = () => {
               </li>
             </ul>
           </div>
-
+          
           <button
-            className="btn position-relative"
+            className="btn position-relative ms-auto"
             type="button"
             onClick={handleClick}
             aria-label="Toggle Dark/Light/System Mode"
