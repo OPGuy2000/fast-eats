@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Bungee&display=swap');
 
+
 #navbar-toggler{
   font-family: "Bungee", sans-serif;
   font-size: 1.5rem;
@@ -53,8 +54,6 @@
   padding: 0.5em;
   text-align: center;
   align-items: center;
-  background-color: orange;
-  border: rgb(83, 54, 0) solid 2px;
 }  
 
 #cover-paragraph{
