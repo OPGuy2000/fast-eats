@@ -154,7 +154,7 @@ const App: React.FC = () => {
               <p>Signing in with a Google account helps us keep track of your tastes and reccommend more options depending on your history. FastEats does work without signing in, but choices will only be saved locally.</p>
             </div>
             <div className="modal-footer">
-              <button type="button" className="btn btn-secondary" data-bs-dismiss="modal">Use as Guest</button>
+              <button type="button" className="btn btn-secondary">Use as Guest</button>
               <button type="button" className="btn btn-primary">Sign in with Google</button>
             </div>
           </div>
