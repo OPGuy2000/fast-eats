@@ -1,14 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Bungee&display=swap');
 
-
-.Home {
-  #navbar-toggler {
+#navbar-toggler {
     font-family: "Bungee", sans-serif;
     font-size: 1.5rem;
     align-items: center;
     display: flex;
   }
+
+  #fast {
+    color: orange;
+  }
+  :root[data-bs-theme="light"] #theme-button {
+    color: #333;
+  }
+
+  :root[data-bs-theme="dark"] #theme-button {
+    color: orange;
+  }
+.Home {
+  
 
   #cover-container {
     display: flex;
@@ -17,9 +28,7 @@
     height: 100vh;
   }
 
-  #fast {
-    color: orange;
-  }
+  
 
   #rightArrow {
     vertical-align: middle;
@@ -63,13 +72,7 @@
     display: inline;
   }
 
-  :root[data-bs-theme="light"] #theme-button {
-    color: #333;
-  }
-
-  :root[data-bs-theme="dark"] #theme-button {
-    color: orange;
-  }
+  
 
   background-image: url('../src/assets/food_background.jpg');
     background-size: cover;
