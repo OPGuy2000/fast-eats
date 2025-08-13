@@ -1,7 +1,6 @@
 import { useState, useEffect} from "react";
 
-type ThemeMode = "light" | "dark" | "system";
-
+import '../css/Header.css';
 
 const Header: React.FC = () => {
   const [theme, setTheme] = useState<"light" | "dark" | "system">("system");
@@ -65,6 +64,7 @@ const Header: React.FC = () => {
   };
 
   return (
+    <div className="Header">
     <nav className="navbar bg-body-tertiary fixed-top">
         <div className="container d-flex align-items-center">
           <button
@@ -85,7 +85,11 @@ const Header: React.FC = () => {
           <div className="collapse navbar-collapse" id="navbarNavDropdown">
             <ul className="navbar-nav">
               <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="#">
+                <a
+                  className="nav-link"
+                  aria-current="page"
+                  href="/"
+                >
                   Home
                 </a>
               </li>
@@ -119,6 +123,7 @@ const Header: React.FC = () => {
           </button>
         </div>
       </nav>
+      </div>
   );
 };
 

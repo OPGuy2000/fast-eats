@@ -1,14 +1,11 @@
-import { useEffect, useState } from "react";
 import "../css/App.css";
 import Header from "../components/Header.tsx";
-
-type ThemeMode = "light" | "dark" | "system";
 
 const Home: React.FC = () => {
 
 
   return (
-    <>
+    <div className="Home">
       <Header />
       <div id="cover-container">
         <div id="discoverText" className="cover-item">
@@ -47,7 +44,6 @@ const Home: React.FC = () => {
                 type="button"
                 className="btn btn-secondary"
                 onClick={() => {
-                  // Close modal and navigate to /foodform
                   const modal = document.getElementById("signInPrompt");
                   if (modal) {
                     (window as any).bootstrap?.Modal.getOrCreateInstance(modal).hide();
@@ -63,7 +59,7 @@ const Home: React.FC = () => {
         </div>
       </div>
 
-    </>
+    </div>
   );
 };
 

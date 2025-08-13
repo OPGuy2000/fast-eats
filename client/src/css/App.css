@@ -2,126 +2,126 @@
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Bungee&display=swap');
 
 
-#navbar-toggler{
-  font-family: "Bungee", sans-serif;
-  font-size: 1.5rem;
-  align-items: center;
-  display: flex;
-}
+.Home {
+  #navbar-toggler {
+    font-family: "Bungee", sans-serif;
+    font-size: 1.5rem;
+    align-items: center;
+    display: flex;
+  }
 
-#cover-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;    
-  height: 100vh;           
+  #cover-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
 
-}
+  #fast {
+    color: orange;
+  }
 
-.cover-item{
-  max-width: 40%;
-  margin: 1em;
-}
+  #rightArrow {
+    vertical-align: middle;
+    filter: invert(1);
+  }
 
-#fast{
-  color: orange;
-}
+  #discoverText {
+    font-family: "Archivo Black", sans-serif;
+    font-size: 5rem;
+    text-align: left;
+    line-height: 1.2;
+    color: black;
+  }
 
-#rightArrow{
-  vertical-align: middle;
-  filter: invert(1);
-}
+  #crave {
+    color: orange;
+    text-shadow:
+      -1px -1px 1em black,
+      1px -1px 1em black,
+      -1px 1px 1em black,
+      1px 1px 1em black;
+  }
 
-#discoverText{
-  font-family: "Archivo Black", sans-serif;
-  font-size: 5rem;
-  text-align: left;
-  line-height: 1.2;
-  color: black;
-  
-}
+  #tryit-button {
+    font-size: 1.5rem;
+    padding: 0.5em;
+    text-align: center;
+    align-items: center;
+  }
 
-#crave {
-  color: orange;
-  text-shadow: 
-        -1px -1px 1em black, 
-        1px -1px 1em black,  
-        -1px 1px 1em black, 
-        1px 1px 1em black;  
-}
+  #cover-paragraph {
+    text-shadow:
+      -3px -3px 1em black,
+      3px -3px 1em black,
+      -3px 3px 1em black,
+      3px 3px 1em black;
+    color: white;
+  }
 
-#tryit-button{
-  font-size: 1.5rem;
-  padding: 0.5em;
-  text-align: center;
-  align-items: center;
-}  
+  #inner-cover {
+    display: inline;
+  }
 
-#cover-paragraph{
-  text-shadow: 
-        -3px -3px 1em black, 
-        3px -3px 1em black,  
-        -3px 3px 1em black, 
-        3px 3px 1em black;   
-  color: white;
-}
+  :root[data-bs-theme="light"] #theme-button {
+    color: #333;
+  }
 
-#inner-cover{
-  display:inline
-}
+  :root[data-bs-theme="dark"] #theme-button {
+    color: orange;
+  }
 
-:root[data-bs-theme="light"] #theme-button {
-  color: #333;
-}
-
-
-:root[data-bs-theme="dark"] #theme-button {
-  color: orange;
-}
-
-body {
   background-image: url('../src/assets/food_background.jpg');
-  background-size: cover;
-}
+    background-size: cover;
 
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
-}
-
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
+  .cover-item {
+    max-width: 40%;
+    margin: 1em;
   }
-  to {
-    transform: rotate(360deg);
+
+  #root {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
   }
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
+  .logo {
+    height: 6em;
+    padding: 1.5em;
+    will-change: filter;
+    transition: filter 300ms;
   }
-}
 
-.card {
-  padding: 2em;
-}
+  .logo:hover {
+    filter: drop-shadow(0 0 2em #646cffaa);
+  }
 
-.read-the-docs {
-  color: #888;
+  .logo.react:hover {
+    filter: drop-shadow(0 0 2em #61dafbaa);
+  }
+
+  @keyframes logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+  @media (prefers-reduced-motion: no-preference) {
+    a:nth-of-type(2) .logo {
+      animation: logo-spin infinite 20s linear;
+    }
+  }
+
+  .card {
+    padding: 2em;
+  }
+
+  .read-the-docs {
+    color: #888;
+  }
 }
