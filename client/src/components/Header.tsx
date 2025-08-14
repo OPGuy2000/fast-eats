@@ -2,6 +2,8 @@ import { useState, useEffect} from "react";
 
 import '../css/Header.css';
 
+import fastText from '../assets/fast.svg';
+
 const Header: React.FC = () => {
   const [theme, setTheme] = useState<"light" | "dark" | "system">("system");
   const [systemPrefersDark, setSystemPrefersDark] = useState(false);

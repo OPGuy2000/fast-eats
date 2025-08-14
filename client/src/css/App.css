@@ -1,23 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Bungee&display=swap');
 
-#navbar-toggler {
-    font-family: "Bungee", sans-serif;
-    font-size: 1.5rem;
-    align-items: center;
-    display: flex;
-  }
 
-  #fast {
-    color: orange;
-  }
-  :root[data-bs-theme="light"] #theme-button {
-    color: #333;
-  }
-
-  :root[data-bs-theme="dark"] #theme-button {
-    color: orange;
-  }
 .Home {
   
 
